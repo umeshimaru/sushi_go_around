@@ -20,25 +20,23 @@
 =end 
 
 # 寿司皿の枚数
-# sushi_dishes = gets.to_i
+sushi_dishes = gets.to_i
 
 
-# sushies = [ ]
+sushies = [ ]
 
 
 # #寿司皿分の寿司ﾈﾀ用意
-# sushi_dishes.times do 
-#   sushi = gets.to_s
-#   sushies.push(sushi)
-# end 
+sushi_dishes.times do 
+  sushi = gets.to_s
+  sushies.push(sushi)
+end 
 
-b = ["tuna","salmon"]
+# b = ["tuna","salmon"]
 
 #配列の中にtunaがあれば最初に出てきたtunaを代入し､なければnilを返す
-first_tuna = b.find {|v| v == "tuna"}
+first_tuna = sushies.find {|v| v == "tuna"}
 puts first_tuna
 
 
 
-# a = b.find {|v| v == "melon"}
-# puts a
