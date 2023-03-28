@@ -38,7 +38,7 @@ b = ["tuna","salmon"]
 first_tuna = b.find {|v| v == "tuna"}
 puts first_tuna
 
-
+#アイウエオ
 
 # a = b.find {|v| v == "melon"}
 # puts a
