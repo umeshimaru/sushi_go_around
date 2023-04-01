@@ -9,9 +9,13 @@
 ②ﾒﾛﾝの後の10皿は食べれない(その10皿にﾒﾛﾝが含まれてても食べれない)11皿目から食べれる
 ③ate_melonというｸﾞﾛｰﾊﾞﾙ変数を用意､そこにﾒﾛﾝの個数足し上げる
 
+パターン 1
+1,最初のメロンの特定
+
+
 
 出力
-食べれるﾒﾛﾝの個数 
+食べたﾒﾛﾝの個数 
 
 
 
@@ -28,9 +32,11 @@ sushies = [ ]
 
 # #寿司皿分の寿司ﾈﾀ用意
 sushi_dishes.times do 
-  sushi = gets.to_s
+  sushi = gets.chomp
   sushies.push(sushi)
 end 
+
+
 
 # b = ["tuna","salmon"]
 
